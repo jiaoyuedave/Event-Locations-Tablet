@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:text="This is detail view" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentLeft="true" android:layout_marginLeft="273dp" android:layout_marginTop="29dp"></TextView>
+    <Button android:id="@+id/button1" android:text="Click here to go Nowhere" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/textView1" android:layout_alignParentLeft="true" android:layout_marginLeft="237dp" android:layout_marginTop="52dp"></Button>
+
+</RelativeLayout>

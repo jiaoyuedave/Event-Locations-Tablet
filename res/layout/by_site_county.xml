@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+	<ImageView android:id="@+id/titleBar"
+    	android:layout_width="fill_parent"
+        android:layout_height="43dp"
+    	android:background="@drawable/title_bar"
+    />
+     <TextView 
+    	android:text="Search by Site Name"
+    	android:textSize="22sp"  android:layout_marginLeft="10dip"
+    	android:textStyle="bold" android:layout_marginTop="5dip"
+    	android:layout_height="wrap_content" 
+    	android:id="@+id/textViewTitle1" android:textColor="@color/black"
+    	android:layout_width="wrap_content" 
+    	android:layout_alignParentTop="true" 
+    	android:layout_centerHorizontal="false"/>
+    	
+
+     <TextView 	android:layout_toRightOf="@id/textViewTitle1"
+    	android:textSize="22sp" android:layout_marginLeft="100dip"
+    	android:textStyle="bold" android:layout_marginTop="5dip"
+    	android:layout_height="wrap_content" 
+    	android:id="@+id/textViewTitle2" 
+    	android:layout_width="wrap_content" 
+    	android:layout_alignParentTop="true" android:textColor="@color/black"
+    	android:layout_centerHorizontal="true"/>    	
+    	
+	 	<Button   android:layout_below="@+id/titleBar" android:paddingLeft="25dip" android:paddingRight="25dip"
+	    android:layout_width="wrap_content"  android:paddingTop="2dip" android:paddingBottom="2dip"
+	    android:layout_height="wrap_content"  android:layout_marginLeft="10dip"  android:layout_marginTop="2dp"
+	    android:text="Counties" android:id="@+id/back_county" android:layout_marginBottom="5dip"
+	    android:background="@drawable/xml_blue_button"  android:visibility="gone" 
+	    android:textColor="@color/white" android:textStyle="bold" 
+	    />         	
+
+
+     	
+    <fragment class="us.eventlocations.androidtab.fragments.MasterFragmentCounty"
+            android:id="@+id/master" 
+            android:layout_weight="1"  android:layout_below="@+id/back_county"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" 
+            android:layout_marginTop="0dp"/>
+    
+ 
+</RelativeLayout>

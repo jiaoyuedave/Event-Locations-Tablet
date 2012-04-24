@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="345dip"
+    android:background="@drawable/background_0">
+
+
+    	<RelativeLayout android:layout_below="@+id/third2_table"  android:id="@+id/main_calendar"
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent" android:layout_marginLeft="5dip"
+		android:layout_height="wrap_content" android:layout_marginRight="5dip"
+		android:orientation="vertical">
+		<com.jasonkostempski.android.calendar.CalendarView
+			android:orientation="vertical"
+			android:id="@+id/calendar_view" 
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" /> 
+		</RelativeLayout>    
+    
+            
+	 	<Button android:paddingLeft="25dip" android:paddingRight="25dip" android:layout_below="@+id/main_calendar"
+	    android:layout_width="wrap_content" android:id="@+id/b_close" android:paddingTop="4dip"  android:paddingBottom="4dip"
+	    android:layout_height="wrap_content" android:layout_marginLeft="50dp"
+	    android:text="Select Date"   android:background="@drawable/xml_blue_button"  android:layout_marginTop="10dip"
+	    android:textColor="@color/white" android:textStyle="bold" android:layout_centerHorizontal="true" 
+	    /> 	    
+    	    
+</RelativeLayout>

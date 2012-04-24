@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_0">
+
+    	 
+	        <RelativeLayout
+	     	android:id="@+id/header"
+			android:layout_width="fill_parent"
+			android:layout_marginTop="0dip"
+			android:layout_height="wrap_content"  
+			android:layout_marginLeft="0dip"
+			android:layout_weight="0"
+			android:orientation="horizontal"
+			android:background="@drawable/blackbar_blue"
+			>	    
+		
+			    <TextView 
+			    	android:text="@string/title_aboutus"
+			     	android:textSize="25sp" 
+			     	android:textStyle="bold"
+			     	android:textColor="#FFFFFF"
+			    	android:layout_height="wrap_content" 
+			    	android:id="@+id/textViewTitleMain" 
+			    	android:layout_width="wrap_content" 
+			    	android:layout_alignParentTop="true" 
+			    	android:layout_centerVertical="true"
+			    	android:layout_centerHorizontal="true"/>
+		   	</RelativeLayout> 
+
+
+    	
+    <RelativeLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="43dp">
+    	
+
+    	<TextView android:id="@+id/title_eventslocations" 
+    		android:layout_width="fill_parent" 
+    		android:layout_height="wrap_content" 
+    		android:layout_below="@+id/textViewTitleMain"
+    		android:textStyle="bold"
+       	 	android:layout_centerHorizontal="true" 
+        	android:layout_marginTop="20dp" 
+        	android:paddingLeft="5dp"
+        	android:paddingRight="5dp"
+        	android:text="@string/title_aboutus_events_locations" 
+        	android:textSize="20sp" android:gravity="center_horizontal">
+        </TextView>
+        
+        <TextView android:id="@+id/body1" 
+    		android:layout_width="fill_parent" 
+    		android:layout_height="wrap_content" 
+    		android:layout_below="@+id/title_eventslocations"
+        	android:layout_marginTop="20dp" android:lineSpacingMultiplier="1"
+        	android:layout_marginLeft="50dip"
+        	android:layout_marginRight="50dip"
+        	android:text="@string/title_about_body1" 
+        	android:textSize="18sp" >
+        </TextView>
+        
+        
+    <View android:id="@+id/divider" 
+    	android:layout_width="fill_parent"
+    	android:layout_height="2dp" 
+    	android:layout_below="@id/body1"
+    	android:layout_marginLeft="50dip"
+    	android:layout_marginRight="50dip"
+    	android:background="#000"
+    	android:layout_centerHorizontal="true" 
+    	android:layout_marginTop="30dp"/>
+
+
+    	<TextView android:id="@+id/title_additionalInformation" 
+    		android:layout_width="fill_parent" 
+    		android:layout_height="wrap_content" 
+    		android:layout_below="@+id/divider"
+    		android:textStyle="bold"
+       	 	android:layout_centerHorizontal="true" 
+        	android:layout_marginTop="20dp" 
+        	android:text="@string/title_aboutus_aditional_information" 
+        	android:textSize="20sp" android:gravity="center_horizontal">
+        </TextView>
+
+<!-- android:text="@string/title_about_body2" -->
+        <TextView android:id="@+id/body2" 
+    		android:layout_width="fill_parent" 
+    		android:layout_height="wrap_content" 
+    		android:layout_below="@+id/title_additionalInformation"
+        	android:layout_marginTop="20dp" android:lineSpacingMultiplier="1"
+        	android:layout_marginLeft="50dip"
+        	android:layout_marginRight="50dip"
+        	android:textSize="18sp" >
+        </TextView>
+    	
+     <Button android:id="@+id/contactUs" 
+     	android:text="@string/title_aboutus_contact_us" 
+     	android:layout_width="wrap_content" 
+     	android:layout_height="wrap_content" 
+     	android:layout_below="@id/body2" 
+     	android:textSize="20sp" android:layout_marginLeft="50dip"
+     	android:textStyle="bold" 
+     	android:textColor="@color/black"
+     	android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+    	android:background="@drawable/xml_white"
+     	android:layout_marginTop="30dp"
+     	>
+     	
+     </Button>
+     	
+    <TextView  
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content" 
+    	android:layout_below="@id/body2" 
+        android:layout_marginTop="30dp" 
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dip"
+        android:paddingRight="30dp"
+        android:text="@string/title_version_1" 
+        android:textSize="20sp">
+     </TextView>
+    	
+    </RelativeLayout>
+
+        
+            
+</RelativeLayout>

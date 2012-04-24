@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+	<ImageView android:id="@+id/titleBar"
+    	android:layout_width="355dip"
+        android:layout_height="43dp"
+    	android:background="@drawable/title_bar"
+    />
+     <TextView 
+    	android:text="Search by Site Name"
+    	android:textSize="22sp"
+    	android:textStyle="bold" 
+    	android:layout_height="wrap_content" android:layout_marginLeft="70dip"
+    	android:id="@+id/textViewTitle1" android:layout_marginTop="5dip"
+    	android:layout_width="wrap_content"  android:gravity="center_horizontal"
+    	android:layout_alignParentTop="true"  android:textColor="@color/black"
+    	android:layout_centerHorizontal="false"/>
+     
+
+    	     
+     
+    	
+    <fragment class="us.eventlocations.androidtab.fragments.MasterFragmentBridal"
+            android:id="@+id/master" 
+            android:layout_weight="1"
+            android:layout_width="350dp"
+            android:layout_height="match_parent" 
+            android:layout_marginTop="43dp"/>
+    
+    <View android:id="@+id/divider" 
+    android:layout_width="5dip"
+    android:layout_height="fill_parent" 
+    android:layout_toRightOf="@id/master"
+    android:background="#ccc"
+    android:layout_marginTop="43dp"/>
+    
+    <FrameLayout android:id="@+id/details"  
+    		android:layout_toRightOf="@id/divider"
+            android:layout_width="925dp"
+            android:layout_height="match_parent" 
+            android:layout_marginTop="0dp"/>
+
+            
+    <!--  FrameLayout android:id="@+id/details2" android:visibility="gone"  
+    		android:layout_toRightOf="@id/details"
+            android:layout_width="153dp"
+            android:layout_height="match_parent" 
+            android:layout_marginTop="43dp"/>-->            
+</RelativeLayout>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="350dip"
+    android:layout_height="690dip" 
+    android:background="#FFFFFF">
+
+    
+
+    	<LinearLayout android:layout_below="@+id/third2_table"  android:id="@+id/main_calendar"
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent" android:layout_marginLeft="5dip"
+		android:layout_height="wrap_content" android:layout_marginRight="5dip"
+		android:orientation="vertical">
+		
+	    	<TextView
+	    	        android:layout_width="fill_parent" android:layout_height="wrap_content" 
+		    		android:textSize="18px"  android:gravity="center_horizontal" 
+		    		android:layout_marginLeft="10dip"   android:text="--New York City--"
+		    		android:layout_marginRight="15dip" 	android:textColor="#000000"
+		    		android:layout_marginTop="10dip" >
+		  	</TextView>
+		  	
+		  	<include layout="@layout/main_a_space_simple"/>	    	    
+		  	
+	       <TextView android:id="@+id/option_1" 
+	                android:layout_width="fill_parent" android:layout_height="wrap_content" 
+		    		android:textSize="18px"  android:gravity="center_horizontal" 
+		    		android:layout_marginLeft="10dip"   android:text="Bronx"
+		    		android:layout_marginRight="15dip" 	android:textColor="#000000"
+		    		android:layout_marginTop="10dip">
+		  	</TextView>
+		  	
+	  		<include layout="@layout/main_a_space_simple"/>	    	    	      
+		  	
+	    	  <TextView  android:id="@+id/option_2"  
+	    	        android:layout_width="fill_parent" android:layout_height="wrap_content" 
+		    		android:textSize="18px"  android:gravity="center_horizontal" 
+		    		android:layout_marginLeft="10dip"   android:text="Brooklyn"
+		    		android:layout_marginRight="15dip" 	android:textColor="#000000"
+		    		android:layout_marginTop="10dip" >
+		  	</TextView>	    	
+		  	
+			<include layout="@layout/main_a_space_simple"/>	    	      
+		  	
+	    	  <TextView  android:id="@+id/option_3"  
+	    	        android:layout_width="fill_parent" android:layout_height="wrap_content" 
+		    		android:textSize="18px"  android:gravity="center_horizontal" 
+		    		android:layout_marginLeft="10dip"   android:text="Manhattan"
+		    		android:layout_marginRight="15dip" 	android:textColor="#000000"
+		    		android:layout_marginTop="10dip">
+		  	</TextView>	  	 
+		  	
+	    	<include layout="@layout/main_a_space_simple"/>
+	    	      
+	    	  <TextView  android:id="@+id/option_4"  
+	    	        android:layout_width="fill_parent" android:layout_height="wrap_content" 
+		    		android:textSize="18px"  android:gravity="center_horizontal" 
+		    		android:layout_marginLeft="10dip"   android:text="Queens"
+		    		android:layout_marginRight="15dip" 	android:textColor="#000000"
+		    		android:layout_marginTop="15px" >
+		  	</TextView>	  	
+
+	    	 <include layout="@layout/main_a_space_simple"/>		  	
+	    	      
+	    	  <TextView  android:id="@+id/option_5"  
+	    	        android:layout_width="fill_parent" android:layout_height="wrap_content" 
+		    		android:textSize="18px"  android:gravity="center_horizontal" 
+		    		android:layout_marginLeft="10dip"   android:text="Staten Island"
+		    		android:layout_marginRight="15dip" 	android:textColor="#000000"
+		    		android:layout_marginTop="15px" >
+		  	</TextView>	 
+
+			<include layout="@layout/main_a_space_simple"/>	    	      
+	    	     
+	    	<TextView   
+	    	        android:layout_width="fill_parent" android:layout_height="wrap_content" 
+		    		android:textSize="18px"  android:gravity="center_horizontal" 
+		    		android:layout_marginLeft="10dip"   android:text="--New York State--"
+		    		android:layout_marginRight="15dip" 	android:textColor="#000000"
+		    		android:layout_marginTop="15px" >
+		  	</TextView>	 
+
+			<include layout="@layout/main_a_space_simple"/>	    	    		  	
+	    	    
+	    	<TextView android:id="@+id/option_6" 
+	    	        android:layout_width="fill_parent" android:layout_height="wrap_content" 
+		    		android:textSize="18px"  android:gravity="center_horizontal" 
+		    		android:layout_marginLeft="10dip"   android:text="Dutchess"
+		    		android:layout_marginRight="15dip" 	android:textColor="#000000"
+		    		android:layout_marginTop="15px" >
+		  	</TextView>
+		  	
+			<include layout="@layout/main_a_space_simple"/>	    	    		
+		  	
+	    	<TextView android:id="@+id/option_7" 
+	    	        android:layout_width="fill_parent" android:layout_height="wrap_content" 
+		    		android:textSize="18px"  android:gravity="center_horizontal" 
+		    		android:layout_marginLeft="10dip"   android:text="Hudson Valley"
+		    		android:layout_marginRight="15dip" 	android:textColor="#000000"
+		    		android:layout_marginTop="15px" >
+		  	</TextView>
+		  	 
+			<include layout="@layout/main_a_space_simple"/>	    	    
+		  	
+	    	<TextView android:id="@+id/option_8" 
+	    	        android:layout_width="fill_parent" android:layout_height="wrap_content" 
+		    		android:textSize="18px"  android:gravity="center_horizontal" 
+		    		android:layout_marginLeft="10dip"   android:text="Orange"
+		    		android:layout_marginRight="15dip" 	android:textColor="#000000"
+		    		android:layout_marginTop="15px">
+		  	</TextView>
+		  	
+			<include layout="@layout/main_a_space_simple"/>	    	    		    	
+		  	
+	    	<TextView android:id="@+id/option_9" 
+	    	        android:layout_width="fill_parent" android:layout_height="wrap_content" 
+		    		android:textSize="18px"  android:gravity="center_horizontal" 
+		    		android:layout_marginLeft="10dip"   android:text="Putnam"
+		    		android:layout_marginRight="15dip" 	android:textColor="#000000"
+		    		android:layout_marginTop="15px" >
+		  	</TextView>
+		  	
+			<include layout="@layout/main_a_space_simple"/>	    	    		
+		  	
+	    	<TextView android:id="@+id/option_10" 
+	    	        android:layout_width="fill_parent" android:layout_height="wrap_content" 
+		    		android:textSize="18px"  android:gravity="center_horizontal" 
+		    		android:layout_marginLeft="10dip"   android:text="Rockland"
+		    		android:layout_marginRight="15dip" 	android:textColor="#000000"
+		    		android:layout_marginTop="15px" >
+		  	</TextView>
+		  	
+			<include layout="@layout/main_a_space_simple"/>	    	    		
+		  	
+	    	<TextView android:id="@+id/option_11" 
+	    	        android:layout_width="fill_parent" android:layout_height="wrap_content" 
+		    		android:textSize="18px"  android:gravity="center_horizontal" 
+		    		android:layout_marginLeft="10dip"   android:text="Sullivan"
+		    		android:layout_marginRight="15dip" 	android:textColor="#000000"
+		    		android:layout_marginTop="15px" >
+		  	</TextView>
+		
+			<include layout="@layout/main_a_space_simple"/>	    	    		
+		  	
+	    	<TextView android:id="@+id/option_12" 
+	    	        android:layout_width="fill_parent" android:layout_height="wrap_content" 
+		    		android:textSize="18px"  android:gravity="center_horizontal" 
+		    		android:layout_marginLeft="10dip"   android:text="Ulster"
+		    		android:layout_marginRight="15dip" 	android:textColor="#000000"
+		    		android:layout_marginTop="15px" >
+		  	</TextView>
+		  	
+			<include layout="@layout/main_a_space_simple"/>	    	    	
+		  	
+	    	<TextView android:id="@+id/option_13" 
+	    	        android:layout_width="fill_parent" android:layout_height="wrap_content" 
+		    		android:textSize="18px"  android:gravity="center_horizontal" 
+		    		android:layout_marginLeft="10dip"   android:text="Westchester"
+		    		android:layout_marginRight="15dip" 	android:textColor="#000000"
+		    		android:layout_marginTop="15px" >
+		  	</TextView>
+		  	
+			<include layout="@layout/main_a_space_simple"/>	    	    		
+
+	    	<TextView 
+	    	        android:layout_width="fill_parent" android:layout_height="wrap_content" 
+		    		android:textSize="18px"  android:gravity="center_horizontal" 
+		    		android:layout_marginLeft="10dip"   android:text="--Long Island--"
+		    		android:layout_marginRight="15dip" 	android:textColor="#000000"
+		    		android:layout_marginTop="15px" >
+		  	</TextView>	
+		  	
+			<include layout="@layout/main_a_space_simple"/>
+			
+	    	<TextView android:id="@+id/option_14" 
+	    	        android:layout_width="fill_parent" android:layout_height="wrap_content" 
+		    		android:textSize="18px"  android:gravity="center_horizontal" 
+		    		android:layout_marginLeft="10dip"   android:text="Nassau"
+		    		android:layout_marginRight="15dip" 	android:textColor="#000000"
+		    		android:layout_marginTop="15px" >
+		  	</TextView>					    		    	    		    	    	    	    
+    	    
+    	</LinearLayout>
+</RelativeLayout>
